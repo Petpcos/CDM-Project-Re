@@ -1,0 +1,35 @@
+body{
+    background-color:#212529;
+}
+
+#info{
+ background-color: #101214;
+ height: 30px;
+ border-radius: 5px;
+ border-color: rgb(32, 30, 30);
+
+}
+
+label{
+    margin-right: 60px;
+}
+
+label{
+    color: gray;
+}
+
+h2{
+    color: rgb(72, 60, 60);
+}
+
+.row{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.btn{
+    padding: 0px 70px 0px 70px;
+    
+    
+}
+
