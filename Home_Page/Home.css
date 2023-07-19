@@ -1,19 +1,78 @@
 body{
-    background-color: #212529;
-    color: antiquewhite;
+    background-color: #2f87e0;
+    color: rgb(31, 209, 156);
+    background-image: url(cocoa_pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(93, 93, 93);
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+
+.navbar a:hover{
+    background-color: rgb(52, 51, 51);
+
+}
+
+.navbar li{
+    float: left;
+}
+
+input{
+    background-color: rgb(101, 100, 99);
+    height: 30px;
+    border-radius: 10px;
+    border-color: white;
+    border: none;
+}
+input::placeholder{
+    color: rgb(219, 225, 231);
+    font-weight: bold;
 }
 
 .btn{
-    background-color: cadetblue;
-    margin-top: 50px;
-    margin-left: 15px;
+    padding: 0px 70px 0px 70px;
     
 }
-.nav{
-    text-decoration: none;
-}
 
-#register{
+main{
     text-align: center;
 }
+h2{
+    background-color: #212529;
+    border: #212529;
+    border-radius: 5px;
+}
+img {
+    width: 30px;
+    height: 30px;
+    padding: 1px; ;
+
+    
+  
+
+
+}
+
+
+
+
+
